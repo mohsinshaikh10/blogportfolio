@@ -357,3 +357,116 @@ footer a{
 
     color:#666;
 }
+
+.page-title{
+
+    text-align:center;
+
+    margin-top:50px;
+}
+
+.admin-actions{
+
+    text-align:center;
+
+    margin:30px;
+}
+
+.admin-btn{
+
+    display:inline-block;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 25px;
+
+    text-decoration:none;
+
+    border-radius:10px;
+}
+
+.admin-posts{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:50px auto;
+}
+
+.admin-post-card{
+
+    background:white;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.08);
+}
+
+.form-container{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+
+.form-container input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+}
+
+.form-container textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    resize:vertical;
+
+    margin-bottom:20px;
+}
+
+.form-container button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 25px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}

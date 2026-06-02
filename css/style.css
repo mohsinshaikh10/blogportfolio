@@ -470,3 +470,113 @@ footer a{
 
     cursor:pointer;
 }
+
+.feed-container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:50px auto;
+}
+
+.post-card{
+
+    background:white;
+
+    padding:30px;
+
+    margin-bottom:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+}
+
+.post-card:hover{
+
+    transform:
+    translateY(-8px);
+}
+
+.post-card h2{
+
+    margin-bottom:15px;
+}
+
+.post-meta{
+
+    color:#777;
+
+    margin-bottom:20px;
+}
+
+.post-footer{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-top:20px;
+
+    margin-bottom:20px;
+}
+
+.read-more-btn{
+
+    display:inline-block;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+}
+
+.read-more-btn:hover{
+
+    background:#1d4ed8;
+}
+
+.single-post{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+
+.post-content{
+
+    margin-top:30px;
+
+    line-height:1.8;
+}
+
+.empty-state{
+
+    text-align:center;
+
+    padding:100px;
+
+    font-size:22px;
+
+    color:#666;
+}

@@ -31,13 +31,13 @@ include_once __DIR__ . '/auth.php';
         <ul class="nav-links">
 
             <li>
-                <a href="index.php">
+                <a href="https://cloudforum.infy.click/index.php">
                     Home
                 </a>
             </li>
 
             <li>
-                <a href="portfolio.php">
+                <a href="https://cloudforum.infy.click/portfolio.php">
                     Mohsin (Owner)
                 </a>
             </li>
@@ -47,7 +47,7 @@ include_once __DIR__ . '/auth.php';
                 <?php if(isAdmin()) : ?>
 
                 <li>
-                    <a href="admin/dashboard.php">
+                    <a href="https://cloudforum.infy.click/admin/dashboard.php">
                         Dashboard
                     </a>
                 </li>
@@ -55,7 +55,7 @@ include_once __DIR__ . '/auth.php';
                 <?php endif; ?>
 
                 <li>
-                    <a href="logout.php">
+                    <a href="https://cloudforum.infy.click/logout.php">
                         Logout
                     </a>
                 </li>
@@ -67,13 +67,13 @@ include_once __DIR__ . '/auth.php';
             <?php else : ?>
 
                 <li>
-                    <a href="login.php">
+                    <a href="https://cloudforum.infy.click/login.php">
                         Login
                     </a>
                 </li>
 
                 <li>
-                    <a href="register.php">
+                    <a href="https://cloudforum.infy.click/register.php">
                         Register
                     </a>
                 </li>

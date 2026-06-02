@@ -12,7 +12,7 @@ include_once __DIR__ . '/auth.php';
 
 <title>Mohsin Blog</title>
 
-<link rel="stylesheet" href="/mohsin-blog/css/style.css">
+<link rel="stylesheet" href="https://cloudforum.infy.click/css/style.css">
 
 </head>
 
@@ -21,7 +21,7 @@ include_once __DIR__ . '/auth.php';
 <header>
 
     <div class="logo">
-        <a href="/mohsin-blog/index.php">
+        <a href="index.php">
             Mohsin Blog
         </a>
     </div>
@@ -31,13 +31,13 @@ include_once __DIR__ . '/auth.php';
         <ul class="nav-links">
 
             <li>
-                <a href="/mohsin-blog/index.php">
+                <a href="index.php">
                     Home
                 </a>
             </li>
 
             <li>
-                <a href="/mohsin-blog/portfolio.php">
+                <a href="portfolio.php">
                     Mohsin (Owner)
                 </a>
             </li>
@@ -47,7 +47,7 @@ include_once __DIR__ . '/auth.php';
                 <?php if(isAdmin()) : ?>
 
                 <li>
-                    <a href="/mohsin-blog/admin/dashboard.php">
+                    <a href="admin/dashboard.php">
                         Dashboard
                     </a>
                 </li>
@@ -55,7 +55,7 @@ include_once __DIR__ . '/auth.php';
                 <?php endif; ?>
 
                 <li>
-                    <a href="/mohsin-blog/logout.php">
+                    <a href="logout.php">
                         Logout
                     </a>
                 </li>
@@ -67,13 +67,13 @@ include_once __DIR__ . '/auth.php';
             <?php else : ?>
 
                 <li>
-                    <a href="/mohsin-blog/login.php">
+                    <a href="login.php">
                         Login
                     </a>
                 </li>
 
                 <li>
-                    <a href="/mohsin-blog/register.php">
+                    <a href="register.php">
                         Register
                     </a>
                 </li>

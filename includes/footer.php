@@ -11,7 +11,7 @@
             AI Enthusiast
         </p>
 
-        <a href="/mohsin-blog/portfolio.php">
+        <a href="https://cloudforum.infy.click/portfolio.php">
             View Full Portfolio
         </a>
 
@@ -26,7 +26,7 @@
 
 </footer>
 
-<script src="js/script.js"></script>
+<script src="https://cloudforum.infy.click/js/script.js"></script>
 
 </body>
 </html>
